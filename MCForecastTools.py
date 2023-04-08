@@ -176,10 +176,11 @@ class MCSimulation:
         r = 0 # assume no drift
         daily_returns = []
     
-        for i in range(num_simulations):
-            daily_return = np.exp((r - 0.5 * volatility**2) * dt + volatility * np.sqrt(dt) * np.random.normal()) - 1
-            daily_returns.append(daily_return)
+    for i in range(num_simulations):
+        daily_return = np.exp((r - 0.5 * volatility**2) * dt + volatility * np.sqrt(dt) * np.random.normal()) - 1
+        daily_returns.append(daily_return)
     
-        avg_daily_return = np.mean(daily_returns)
+    avg_daily_return = np.mean(daily_returns)
     
-        return avg_daily_return
+    return avg_daily_return
+    
