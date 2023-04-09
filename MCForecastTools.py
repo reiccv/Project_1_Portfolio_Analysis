@@ -171,16 +171,65 @@ class MCSimulation:
         ci_series.index = ["95% CI Lower","95% CI Upper"]
         return metrics.append(ci_series)
     
-    def calculate_daily_return(initial_price, volatility, time_period, num_simulations):
-        dt = 1 / 252 # 252 trading days in a year
-        r = 0 # assume no drift
-        daily_returns = []
     
-    for i in range(num_simulations):
-        daily_return = np.exp((r - 0.5 * volatility**2) * dt + volatility * np.sqrt(dt) * np.random.normal()) - 1
-        daily_returns.append(daily_return)
+    def calculate_daily_returns(portfolio_data, num_simulation=1000, num_trading_days=252):
+        """
+        Calculates daily returns using Monte Carlo simulations.
+       
+        Parameters
+        ----------
+        portfolio_data : pandas.DataFrame
+            DataFrame containing stock price information
+        num_simulation : int, optional
+           Number of simulation samples. Default is 1000 simulation samples.
+        num_trading_days : int, optional
+           Number of trading days to simulate. Default is 252 days (1 year of business days).
+       
+        Returns
+        -------
+        daily_returns : pandas.DataFrame
+            DataFrame containing daily returns for each stock in the portfolio.
+        """
+        
+         # Get closing prices of each stock
+        last_prices = portfolio_data.xs('close',level=1,axis=1)[-1:].values.tolist()[0]
+        
+        # Calculate the mean and standard deviation of daily returns for each stock
+        daily_returns = portfolio_data.xs('daily_return',level=1,axis=1)
+        mean_returns = daily_returns.mean().tolist()
+        std_returns = daily_returns.std().tolist()
+        
+        # Initialize empty Dataframe to hold simulated prices
+        simulated_prices = pd.DataFrame()
+        
+        # Run the simulation of projecting stock prices 'num_simulation' number of times
+        for n in range(num_simulation):
     
-    avg_daily_return = np.mean(daily_returns)
+            # Create a list of lists to contain the simulated values for each stock
+            simvals = [[p] for p in last_prices]
     
-    return avg_daily_return
+            # For each stock in our data:
+            for s in range(len(last_prices)):
     
+                # Simulate the returns for each trading day
+                for i in range(num_trading_days):
+    
+                    # Calculate the simulated price using the last price within the list
+                    simvals[s].append(simvals[s][-1] * (1 + np.random.normal(mean_returns[s], std_returns[s])))
+    
+            # Append the simulated prices to the simulated prices dataframe
+            simulated_prices[n] = simvals
+            
+        # Calculate daily returns of simulated prices
+        daily_returns = simulated_prices.pct_change().dropna()
+        
+        return daily_returns
+    
+    
+    
+        
+
+
+    
+    
+  
