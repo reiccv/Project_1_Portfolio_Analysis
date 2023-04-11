@@ -71,13 +71,17 @@ Finally, it computes the variance and covariance between the daily returns of ea
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image0.PNG)
 
-###
+### The data is then pulled from the csv and placed into a pandas dataframe
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image1.PNG)
 
-###
+### The tech stocks data average is calculated and is then pulled and placed in a seperate dataframe
+
+(repeat steps for consumer stocks)
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image2.PNG)
+
+###
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/sp500image3.PNG)
 
