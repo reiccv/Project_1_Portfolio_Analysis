@@ -26,6 +26,12 @@ Tech Stocks:
  * License
  
 # Installation
+
+### Requirements
+
+Python 3.x
+Required libraries: pandas, yfinance, numpy, os, requests, json, dotenv, alpaca_trade_api, matplotlib.pyplot
+
 Pandas:
 To install pandas, you can use pip by typing `pip install pandas` in your command prompt or terminal.
 
@@ -54,8 +60,12 @@ Matplotlib.pyplot:
 To install Matplotlib, you can use pip by typing pip install matplotlib in your command prompt or terminal. Then, to use the pyplot module, you can import it in your code using `import matplotlib.pyplot as plt`.
 
 # Usage
+
 Provide instructions and examples for how to use your project. This can include code snippets, screenshots, or any other helpful information.
 
+The asset allocation between stocks & bonds within the portfolio will remain the same between both portfolios (80-20 split), and the percent allocation between stocks within each fund will be the same as well. The inclusion of bonds in these portfolios in this exercise will allow the portfolios to mimic the investment style of the average investor. Each portfolio will be assigned a cost basis of $50,000; furthermore the portfolios will be assigned expense ratios that are consistent with index funds that represent the holdings similar to that of our sample portfolios.
+
+First we are importing the data that we gathered for each stocks 
 # Contributing
 Explain how others can contribute to your project, including guidelines for submitting pull requests or bug reports.
 
