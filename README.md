@@ -10,6 +10,7 @@ Consumer Stocks:
 * Walmart
 * Kellogg
 * Coca Cola
+
 Tech Stocks:
 * Amazon
 * Meta
@@ -19,10 +20,10 @@ Tech Stocks:
 
 
 # Table of Contents
- * Installation
- * Usage
- * Contributing
- * License
+ * [Installation]
+ * [Usage]
+ * [Contributing]
+ * [License]
  
 # Installation
 Describe the steps needed to install your project. Be sure to include any dependencies or prerequisites needed.
