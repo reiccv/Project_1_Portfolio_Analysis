@@ -61,13 +61,22 @@ To install Matplotlib, you can use pip by typing pip install matplotlib in your 
 
 # Usage
 
-The asset allocation between stocks & bonds within the portfolio will remain the same between both portfolios (80-20 split), and the percent allocation between stocks within each fund will be the same as well. The inclusion of bonds in these portfolios in this exercise will allow the portfolios to mimic the investment style of the average investor. Each portfolio will be assigned a cost basis of $50,000; furthermore the portfolios will be assigned expense ratios that are consistent with index funds that represent the holdings similar to that of our sample portfolios.
+This is a Python code that analyzes stock market data from 2005 to 2023. The code starts by selecting tech stocks and consumer stocks from a larger dataset of all stocks. It then calculates the average share price for each category of stocks and displays the head of each dataframe.
 
-First we are importing the data that we gathered for each stocks 
+The code then plots the share prices for tech stocks and consumer stocks over the period, as well as the average share prices for both categories. Next, it calculates the daily returns for the tech and average tech stocks and displays their respective head and description statistics. Similarly, it calculates the annualized returns and standard deviation for tech stocks, consumer stocks, and the S&P 500 index.
+
+Finally, it computes the variance and covariance between the daily returns of each tech stock and the S&P 500 index
+
+
+### First we are importing the neccesary libraries needed to compute the following code.
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image0.PNG)
 
+###
+
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image1.PNG)
+
+###
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image2.PNG)
 
