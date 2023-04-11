@@ -143,6 +143,8 @@ Finally, it computes the variance and covariance between the daily returns of ea
 
 ### Loading in API keys, setting tickers and time frame in order to create portfolio
 
+(repeat for consumer stocks)
+
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image15.PNG)
 
 # Contributors
