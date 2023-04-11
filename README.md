@@ -20,10 +20,9 @@ Tech Stocks:
 
 
 # Table of Contents
- * Installation
- * Usage
- * Contributing
- * License
+ - [Installation](#installation)
+ - [Usage](#usage)
+ - [Contributors](#contributors)
  
 # Installation
 
