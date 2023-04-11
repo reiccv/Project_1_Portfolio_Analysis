@@ -61,19 +61,44 @@ To install Matplotlib, you can use pip by typing pip install matplotlib in your 
 
 # Usage
 
-Provide instructions and examples for how to use your project. This can include code snippets, screenshots, or any other helpful information.
-
 The asset allocation between stocks & bonds within the portfolio will remain the same between both portfolios (80-20 split), and the percent allocation between stocks within each fund will be the same as well. The inclusion of bonds in these portfolios in this exercise will allow the portfolios to mimic the investment style of the average investor. Each portfolio will be assigned a cost basis of $50,000; furthermore the portfolios will be assigned expense ratios that are consistent with index funds that represent the holdings similar to that of our sample portfolios.
 
 First we are importing the data that we gathered for each stocks 
-# Contributing
-Explain how others can contribute to your project, including guidelines for submitting pull requests or bug reports.
 
-# License
-State the license that your project is released under. If you are using an open-source license, provide a link to the license file or website.
+![text]()
 
-# Credits
-List any resources or references that you used in creating your project. This can include libraries, frameworks, or other code snippets.
+![text]()
 
-# Contact
-Provide a way for others to contact you if they have questions or feedback about your project. This can be an email address, social media handle, or other form of contact.
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+![text]()
+
+# Contributors
+
+Kaushik Basavaraju, Monica Estrada, Christian Hernandez
+
+
