@@ -20,13 +20,39 @@ Tech Stocks:
 
 
 # Table of Contents
- * [Installation]
- * [Usage]
- * [Contributing]
- * [License]
+ * Installation
+ * Usage
+ * Contributing
+ * License
  
 # Installation
-Describe the steps needed to install your project. Be sure to include any dependencies or prerequisites needed.
+Pandas:
+
+To install pandas, you can use pip by typing `pip install pandas` in your command prompt or terminal.
+yfinance:
+
+To install yfinance, you can use pip by typing `pip install yfinance` in your command prompt or terminal.
+NumPy:
+
+To install numpy, you can use pip by typing `pip install numpy` in your command prompt or terminal.
+os:
+
+The os library is a built-in Python library, so you don't need to install it separately.
+Requests:
+
+To install requests, you can use pip by typing `pip install requests` in your command prompt or terminal.
+JSON:
+
+The json library is a built-in Python library, so you don't need to install it separately.
+dotenv:
+
+To install dotenv, you can use pip by typing `pip install python-dotenv` in your command prompt or terminal.
+alpaca_trade_api:
+
+To install alpaca_trade_api, you can use pip by typing `pip install alpaca-trade-api` in your command prompt or terminal.
+Matplotlib.pyplot:
+
+To install Matplotlib, you can use pip by typing pip install matplotlib in your command prompt or terminal. Then, to use the pyplot module, you can import it in your code using `import matplotlib.pyplot as plt`.
 
 # Usage
 Provide instructions and examples for how to use your project. This can include code snippets, screenshots, or any other helpful information.
