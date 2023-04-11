@@ -81,13 +81,21 @@ Finally, it computes the variance and covariance between the daily returns of ea
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image2.PNG)
 
-###
+### SP500 Data is pulled and placed in seperate dataframe
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/sp500image3.PNG)
 
+### The share price from tech stocks is then plotted using `tech_stocks.plot`
+
+(repeat for consumer stocks)
+
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image4.PNG)
 
+### The average share price from tech stocks and consumer stocks is then plotted together
+
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/avgtechavgconimage5.PNG)
+
+### 
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image6.PNG)
 
