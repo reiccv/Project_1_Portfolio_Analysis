@@ -95,30 +95,58 @@ Finally, it computes the variance and covariance between the daily returns of ea
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/avgtechavgconimage5.PNG)
 
-### 
+### Calculating Daily returns for tech stocks and for tech stocks over 18 years
+
+(repeat for consumer stocks)
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image6.PNG)
 
+### Daily returns average for tech stocks
+
+(repeat for consumer stocks)
+
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image7.PNG)
+
+### Calculating and Plotting cumulative returns for tech stocks
+
+(repeat for consumer stocks)
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image8.PNG)
 
+### Plotting average cumulative returns for SP500, tech and consumer stocks
+
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image9.PNG)
+
+### Annualized returns and annualized standard deviation
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image10.PNG)
 
+### Calculating variance, covariance and beta for Tech stocks
+
+(repeat for consumer stocks)
+
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image11.PNG)
+
+### Rolling metrics plotted for tech stocks
+
+(repeat for consumer stocks)
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image12.PNG)
 
+### Daily returns for SP500 and tech stocks plotted/visualized
+
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image13.PNG)
 
+### Sharpe ratio for all data
+
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image14.PNG)
+
+### Loading in API keys, setting tickers and time frame in order to create portfolio
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image15.PNG)
 
 # Contributors
 
-Kaushik Basavaraju, Monica Estrada, Christian Hernandez
+### Kaushik Basavaraju, Monica Estrada, Christian Hernandez
 
 
