@@ -65,37 +65,37 @@ The asset allocation between stocks & bonds within the portfolio will remain the
 
 First we are importing the data that we gathered for each stocks 
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image0.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image1.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image2.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/sp500image3.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image4.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/avgtechavgconimage5.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image6.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image7.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image8.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image9.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image10.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image11.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image12.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image13.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image14.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image15.PNG)
 
 # Contributors
 
