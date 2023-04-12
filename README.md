@@ -151,6 +151,24 @@ Finally, it computes the variance and covariance between the daily returns of ea
 
 ### 
 
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image16.PNG)
+
+###
+
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image17.PNG)
+
+###
+
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image18.PNG)
+
+### 
+
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image19.PNG)
+
+###
+
+![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image21.PNG)
+
 
 ### Results
 
