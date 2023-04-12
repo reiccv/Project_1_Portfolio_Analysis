@@ -22,7 +22,9 @@ Tech Stocks:
 # Table of Contents
  - [Installation](#installation)
  - [Usage](#usage)
+ - [Results](#results)
  - [Contributors](#contributors)
+
  
 # Installation
 
@@ -146,6 +148,13 @@ Finally, it computes the variance and covariance between the daily returns of ea
 (repeat for consumer stocks)
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image15.PNG)
+
+### 
+
+
+### Results
+
+Our initial hypothesis that centering a portfolio around tech stocks outperforming the market was disproved somewhat. Although both have outperformed the sp500 index, both consumer and tech stock portfolio simulations had yielded similar portfolio valuations. We believe that the results would be altered somewhat if different funds were used to track these industries or adjusting the timeframe to allow for a more volatility in historical NAVS. However, the main takeaway from our exercise was significance of investing etfs/index funds vs in any one stock portfolio. In this exercise we were able to reach extremely high portfolio valuations with investments in a portfolio asset allocation comprising of indvidual stocks, however this also yielded extremely high standard deviation values - indicating our previous portfolio asset allocation was not nearly diverse enough to lower volatility within the portfolio; furthermore it would be very difficult and therefore unrealistic to replicate the degree of cumulative returns projected to 10 years for a collection of a few hyper sucessful stocks as an investment strategy. Based on the above results, we would recommend for investors seeking capital appreciation to pick tech or consumer based etfs with low expense ratios and high allocations to the large cap assets we had investigated earlier, as these stocks seem to have the ability to retain value over time while also having significant enough avenues for capital appreciation. For the more conservative investor, we would recommend investing in the S&P 500, providing more modest returns but captures the market as a whole and posing fewer unsystematic risks.
 
 # Contributors
 
