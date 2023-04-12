@@ -149,23 +149,26 @@ Finally, it computes the variance and covariance between the daily returns of ea
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image15.PNG)
 
-### 
+### Implementing code for montecarlo simulation; calculating cumulative returns with an 80/20 split over 10 years
+
+(repeat for consumer stocks and SP500)
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image16.PNG)
 
-###
+### Plotting 10 year simulation distribution 
+
+(repeat for consumer stocks and SP500)
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image17.PNG)
 
-###
+###  Summary Statistics for Tech stocks simulations
+
+(repeat for consumer stocks and SP500)
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image18.PNG)
 
-### 
 
-![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image19.PNG)
-
-###
+### SP500 Summary Statistics
 
 ![text](https://github.com/reiccv/Project_1_Portfolio_Analysis/blob/main/images/image21.PNG)
 
